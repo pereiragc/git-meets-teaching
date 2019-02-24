@@ -55,6 +55,7 @@ Let's think of this more as a brainstorm.
 <!-- - Some shell -->
 <!-- - A working version of git -->
 <!-- -  Patience :) -->
+
 # Introducing Git
 
 ## Git *isn't*
@@ -69,3 +70,23 @@ Avoids this kind of thing:
 
 (screenshot: directory of Previdencia code)
 
+## Pros and cons
+*Relative to other version control methods*
+
+- Large user base
+- Easy! (Yes, I mean it)
+- Ubiquitous
+- TODO: Technical reasons
+- Network externalities
+
+::: notes
+1. It has a large user base and all the advantages that come with it. My
+   experience is that there are some common mistakes beginners make and you'll
+   be able to google your way out of them very quickly.
+2. It is truly easy once you get the gist of it.
+3. Very easy to install and run. Pre-installed in most clusters and many linux
+   distributions.
+4. TODO
+5. Related to (1), there are network externalities associated to it. This is not
+   my favorite reason (Windows) but that doesn't mean it isn't true.
+:::
