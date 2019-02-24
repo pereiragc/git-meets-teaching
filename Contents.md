@@ -90,6 +90,8 @@ Avoids this kind of thing:
 5. Related to (1), there are network externalities associated to it. This is not
    my favorite reason (Windows) but that doesn't mean it isn't true.
 :::
+
+
 # How Git works
 
 ## The basic philosophy
@@ -107,3 +109,17 @@ Avoids this kind of thing:
      documented minor changes. 
    * The history of the project should be readily
      accessible, and previous versions immediately recoverable. 
+     
+     
+## The basic philosophy
+3. The bulk of "version controlled" files should be *plain text*
+
+   * If your text editor can't open a file, it will be impractical to track changes
+   * TODO: Include example of tracking changes to a file
+
+::: notes
+
+In practice what this is saying is that for version control purposes, storing
+the relevant files in some type of plain text format is preferred to storing it 
+
+::: 
