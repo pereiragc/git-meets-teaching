@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Gustavo Pereira">
+  <title>Git meets teaching</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/js/reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/js/reveal.js/css/theme/serif.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js/js/reveal.js/css/print/pdf.css' : 'http://lab.hakim.se/reveal-js/js/reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  <!-- doesn't work --> 
+  <style type="text/css">
+   .reveal ul {
+       display: block;
+       }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Git meets teaching</h1>
+  <p class="subtitle">Simple workflows to make your teaching life easier</p>
+  <p class="author">Gustavo Pereira</p>
+</section>
+
+<section><section id="introduction" class="title-slide slide level1"><h1>Introduction</h1></section><section id="about-me" class="slide level2">
+<h2>About me</h2>
+<ul>
+<li>Economics Ph.D. student, 4th year</li>
+<li><em>Not</em> a specialist in:
+<ol type="1">
+<li>Teaching</li>
+<li>Git</li>
+</ol></li>
+</ul>
+<aside class="notes">
+<p>Hello everyone! My name is Gustavo. For those of you who don’t know me, my name is Gustavo and I’m currently in the fourth year of the PhD in economics. This workshop will focus on how to apply the Git philosophy to teaching.</p>
+<p>Now, let me warn you that I’ve been using git for only two years. And while learning it has been a useful process, I’m far from “Git wizard”. I would even guess that some of you here in this audience know it better than me.</p>
+<p>With that in mind, please don’t think of this as a session of me teaching you stuff. Feel free to interrupt me whenever, make suggestions, comments, etc. Let’s think of this more as a brainstorm.</p>
+</aside>
+</section><section id="purpose-of-this-talk" class="slide level2">
+<h2>Purpose of this talk</h2>
+<ul>
+<li>Introduce basic Git concepts</li>
+<li>Discuss how Git can be useful for teaching</li>
+</ul>
+</section><section id="why-should-i-care" class="slide level2">
+<h2>Why should I care??</h2>
+<div>
+<ol type="1">
+<li class="fragment"><strong>Version control</strong>. A good principle for life!</li>
+<li class="fragment"><strong>Flexibility</strong>. Customize your course</li>
+<li class="fragment"><strong>Collaboration</strong>. Work with your peers and students</li>
+</ol>
+</div>
+<aside class="notes">
+<ol type="1">
+<li>If you haven’t adopted version control yet, you should. Not only for teaching purposes, but for practical day to day life. The benefits will be there not only for coders. Anyone e.g. writing a thesis will benefit from version controlling.</li>
+<li>When you use git, a useful side effect is that you can easily port your code to hosting services. That way, you can make the course repository into an integral part of the course.</li>
+</ol>
+</aside>
+<!-- ## What will need -->
+<!-- To reproduce what I do here, you will need:  -->
+<!-- - Some shell -->
+<!-- - A working version of git -->
+<!-- -  Patience :) -->
+</section></section>
+<section><section id="introducing-git" class="title-slide slide level1"><h1>Introducing Git</h1></section><section id="git-isnt" class="slide level2">
+<h2>Git <em>isn’t</em></h2>
+<ul>
+<li>Github</li>
+<li>A big scary thing that’s only useful for coders/hackers (omg cmd line)</li>
+<li>A substitute for Dropbox</li>
+</ul>
+</section><section id="pros-and-cons" class="slide level2">
+<h2>Pros and cons</h2>
+<p><em>Relative to not having version control</em></p>
+<p>Avoids this kind of thing:</p>
+<p>(screenshot: directory of Previdencia code)</p>
+</section><section id="pros-and-cons-1" class="slide level2">
+<h2>Pros and cons</h2>
+<p><em>Relative to other version control methods</em></p>
+<ul>
+<li>Large user base</li>
+<li>Easy! (Yes, I mean it)</li>
+<li>Ubiquitous</li>
+<li>TODO: Technical reasons</li>
+<li>Network externalities</li>
+</ul>
+<aside class="notes">
+<ol type="1">
+<li>It has a large user base and all the advantages that come with it. My experience is that there are some common mistakes beginners make and you’ll be able to google your way out of them very quickly.</li>
+<li>It is truly easy once you get the gist of it.</li>
+<li>Very easy to install and run. Pre-installed in most clusters and many linux distributions.</li>
+<li>TODO</li>
+<li>Related to (1), there are network externalities associated to it. This is not my favorite reason (Windows) but that doesn’t mean it isn’t true.</li>
+</ol>
+</aside>
+</section></section>
+<section><section id="how-git-works" class="title-slide slide level1"><h1>How Git works</h1></section><section id="the-basic-philosophy" class="slide level2">
+<h2>The basic philosophy</h2>
+<ol type="1">
+<li><p>“Snapshots” are the basic unit of version control</p>
+<blockquote>
+<p>“Every time you commit (…) it (…) takes a picture of what all your files look like at that moment and stores a reference to that snapshot.”</p>
+</blockquote></li>
+</ol>
+</section><section id="the-basic-philosophy-1" class="slide level2">
+<h2>The basic philosophy</h2>
+<ol start="2" type="1">
+<li><p>Changes are incremental.</p>
+<ul>
+<li>The evolution of a project over time will be the sum of extensively documented minor changes.</li>
+<li>The history of the project should be readily accessible, and previous versions immediately recoverable.</li>
+</ul></li>
+</ol>
+</section><section id="the-basic-philosophy-2" class="slide level2">
+<h2>The basic philosophy</h2>
+<ol start="3" type="1">
+<li><p>The bulk of “version controlled” files should be <em>plain text</em></p>
+<ul>
+<li>If your text editor can’t open a file, it will be impractical to track changes</li>
+<li>TODO: Include example of tracking changes to a file</li>
+</ul></li>
+</ol>
+<aside class="notes">
+<p>In practice what this is saying is that for version control purposes, storing the relevant files in some type of plain text format is preferred to storing it</p>
+</aside>
+</section></section>
+    </div>
+  </div>
+
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.js/lib/js/head.min.js"></script>
+  <script src="http://lab.hakim.se/reveal-js/js/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Transition style
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'http://lab.hakim.se/reveal-js/js/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://lab.hakim.se/reveal-js/js/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'http://lab.hakim.se/reveal-js/js/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
