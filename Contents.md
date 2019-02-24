@@ -90,3 +90,20 @@ Avoids this kind of thing:
 5. Related to (1), there are network externalities associated to it. This is not
    my favorite reason (Windows) but that doesn't mean it isn't true.
 :::
+# How Git works
+
+## The basic philosophy
+
+1. "Snapshots" are the basic unit of version control
+
+   > "Every time you commit (...) it (...) takes a picture of what all your
+   > files look like at that moment and stores a reference to that snapshot."
+
+
+## The basic philosophy
+2. Changes are incremental.
+
+   * The evolution of a project over time will be the sum of extensively
+     documented minor changes. 
+   * The history of the project should be readily
+     accessible, and previous versions immediately recoverable. 
