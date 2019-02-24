@@ -28,3 +28,30 @@ stuff. Feel free to interrupt me whenever, make suggestions, comments, etc.
 Let's think of this more as a brainstorm.
 :::
    
+## Purpose of this talk
+* Introduce basic Git concepts
+* Discuss how Git can be useful for teaching
+
+## Why should I care??
+::: incremental
+1. **Version control**. A good principle for life!
+2. **Flexibility**. Customize your course
+3. **Collaboration**. Work with your peers and students
+:::
+
+::: notes
+1. If you haven't adopted version control yet, you should. Not only for teaching
+   purposes, but for practical day to day life. The benefits will be there not
+   only for coders. Anyone e.g. writing a thesis will benefit from version controlling. 
+2. When you use git, a useful side effect is that you can easily port your code
+   to hosting services. That way, you can make the course repository into an
+   integral part of the course. 
+
+:::
+
+<!-- ## What will need -->
+<!-- To reproduce what I do here, you will need:  -->
+
+<!-- - Some shell -->
+<!-- - A working version of git -->
+<!-- -  Patience :) -->
