@@ -55,3 +55,17 @@ Let's think of this more as a brainstorm.
 <!-- - Some shell -->
 <!-- - A working version of git -->
 <!-- -  Patience :) -->
+# Introducing Git
+
+## Git *isn't*
+- Github
+- A big scary thing that's only useful for coders/hackers (omg cmd line)
+- A substitute for Dropbox 
+
+## Pros and cons
+*Relative to not having version control*
+
+Avoids this kind of thing: 
+
+(screenshot: directory of Previdencia code)
+
