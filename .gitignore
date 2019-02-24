@@ -1,3 +1,5 @@
 *.html
+!Contents.html
+!custom.html
 *.tex
 [pP]rivate/
