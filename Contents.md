@@ -16,7 +16,7 @@ date: March 15, 2019
   
   
 ::: notes
-Hello everyone! My name is Gustavo. For those of you who don't know me, my name
+Hello everyone! For those of you who don't know me, my name
 is Gustavo and I'm currently in the fourth year of the PhD in economics. This
 workshop will focus on how to apply the Git philosophy to teaching.
 
