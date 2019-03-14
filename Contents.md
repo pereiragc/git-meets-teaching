@@ -1,7 +1,8 @@
 ---
-title: 'Git meets teaching'
-subtitle: 'Simple workflows to make your teaching life easier'
+title: 'Collaborating and teaching with Git'
+subtitle: 'LTF event | spring semester'
 author: Gustavo Pereira
+date: March 15, 2019
 ---
 
 
