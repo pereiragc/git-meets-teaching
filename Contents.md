@@ -31,14 +31,22 @@ Let's think of this more as a brainstorm.
    
 ## Purpose of this talk
 * Introduce basic Git concepts
-* Discuss how Git can be useful for teaching
+* Inspire you to adopt Git for
+    1. Your own work
+    2. Collaborating
+    3. Teaching
+
+::: notes
+I have only 30 minutes, so I can't go beyond touching the surface. What I hope
+to achieve with this talk is to (1) introduce some jargon and concepts related
+to git VC'ing, (2) inspire you to adopt git for your own work, as well as for
+collaborating and teaching purposes
+:::
 
 ## Why should I care??
-::: incremental
 1. **Version control**. A good principle for life!
 2. **Flexibility**. Customize your course
 3. **Collaboration**. Work with your peers and students
-:::
 
 ::: notes
 1. If you haven't adopted version control yet, you should. Not only for teaching
@@ -47,7 +55,6 @@ Let's think of this more as a brainstorm.
 2. When you use git, a useful side effect is that you can easily port your code
    to hosting services. That way, you can make the course repository into an
    integral part of the course. 
-
 :::
 
 <!-- ## What will need -->
