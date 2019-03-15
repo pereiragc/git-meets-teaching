@@ -44,40 +44,57 @@ to achieve with this talk is to
 2. Introduce some jargon and concepts that will help you learn git
 :::
 
-## Why should I care??
-1. **Version control**. A good principle for life!
-2. **Flexibility**. Customize your course
-3. **Collaboration**. Work with your peers and students
+# Why do I care?
+* Most of us are *not* programmers, but still **rely a lot on coding** 
+* Programmers have been coding *extensively* and *collaboratively* for decades
+* Most of us aren't aware of the best practices for that
 
 ::: notes
-1. If you haven't adopted version control yet, you should. Not only for teaching
-   purposes, but for practical day to day life. The benefits will be there not
-   only for coders. Anyone e.g. writing a thesis will benefit from version controlling. 
-2. When you use git, a useful side effect is that you can easily port your code
-   to hosting services. That way, you can make the course repository into an
-   integral part of the course. 
+* Let me wear what in Portuguese will call the "sandals of humility"
+* I'll show you the files in a joint project with my co-author
+* Warning: there's some extreme graphical content coming up. 
 :::
 
-<!-- ## What will need -->
-<!-- To reproduce what I do here, you will need:  -->
+## How an economist does version control
+![Don't try this at home, kids](./fig/badproject.png)
 
-<!-- - Some shell -->
-<!-- - A working version of git -->
-<!-- -  Patience :) -->
+::: notes
+* You will see that there are many "MainCode.ipynb" files with different
+  suffixes for different versions
+* Sometimes there is a chronological logic (pre-borrowing limit)
+* Other times there are different calibrations
+   - This is because some things are coded with global variables
+   - So this is actually a mix of bad version control and bad programming
 
-# Introducing Git
+So this is where most of you will think: "these guys is just stupid. I have a
+much better version control system" 
+:::
 
-## Git *isn't*
-- Github
-- A big scary thing that's only useful for coders/hackers (omg cmd line)
-- A substitute for Dropbox 
+## How an economist does version control
+* There are obvious improvements to what I showed you
+* Example: 
+  ```
+   DatabaseExtraction-2018-07-21.do
+   DatabaseExtraction-2018-08-02.do
+   RunRegressions-ver1.do
+   RunRegression-ver2-final.do
+   RunRegression-ver2-REALLYfinal.do
+  ```
 
-## Pros and cons
-*Relative to not having version control*
+::: notes
+So even if you're a smart-ass, here's a typical case. 
+* You begin by attaching dates
+* Then you get tired, and start doing versions
+* Then you start saying things are final, then really final
+:::
 
-Avoids this kind of thing: 
+## How an economist does version control
+### Why is this bad practice
+* Changes aren't documented
+* Not systematic: when do you create a new version?
+* How do two people work together under that system?
 
-(screenshot: directory of Previdencia code)
+
 
 ## Pros and cons
 *Relative to other version control methods*
