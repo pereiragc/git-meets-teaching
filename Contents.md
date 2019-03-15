@@ -30,17 +30,18 @@ Let's think of this more as a brainstorm.
 :::
    
 ## Purpose of this talk
-* Introduce basic Git concepts
-* Inspire you to adopt Git for
+* Inspire you to adopt Git for:
     1. Your own work
     2. Collaborating
     3. Teaching
+* Introduce basic Git concepts (if time allows...)
 
 ::: notes
 I have only 30 minutes, so I can't go beyond touching the surface. What I hope
-to achieve with this talk is to (1) introduce some jargon and concepts related
-to git VC'ing, (2) inspire you to adopt git for your own work, as well as for
-collaborating and teaching purposes
+to achieve with this talk is to 
+
+1. Show you how git can be useful for collaborating, teaching, **and for your own research**
+2. Introduce some jargon and concepts that will help you learn git
 :::
 
 ## Why should I care??
