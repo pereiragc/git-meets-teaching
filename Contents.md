@@ -46,6 +46,7 @@ to achieve with this talk is to
 
 # Why do I care?
 * Most of us are *not* programmers, but still **rely a lot on coding** 
+* These papers where coding is involved are often **co-authored**
 * Programmers have been coding *extensively* and *collaboratively* for decades
 * Most of us aren't aware of the best practices for that
 
