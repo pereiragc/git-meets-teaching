@@ -93,6 +93,7 @@ So even if you're a smart-ass, here's a typical case.
 * Changes aren't documented
 * Not systematic: when do you create a new version?
 * How do two people work together under that system?
+* Reproducibility: how does someone else understand what you did?
 
 
 # The Git approach
