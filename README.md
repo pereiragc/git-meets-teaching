@@ -3,7 +3,7 @@
 # Collaborating and teaching with Git
 **Gustavo Pereira**
 
-This repo contains the source file for a brief talk given at Columbia University
+This amazing repo contains the source file for a brief talk given at Columbia University
 on March 15, 2019 as a guest speaker for the LTF event. 
 
 
