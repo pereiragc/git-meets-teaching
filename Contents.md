@@ -95,39 +95,41 @@ So even if you're a smart-ass, here's a typical case.
 * How do two people work together under that system?
 
 
+# The Git approach
+![Source: xkcd](./fig/git_xkcd.png)
 
+## The Git approach
+1. Keep track of project "snapshots"
 
-
-
-
-# How Git works
-
-## The basic philosophy
-
-1. "Snapshots" are the basic unit of version control
-
-   > "Every time you commit (...) it (...) takes a picture of what all your
+   > "Every time you *commit* (...) it (...) takes a picture of what all your
    > files look like at that moment and stores a reference to that snapshot."
+   [extracted from the git documentation]
+
+The process of updating snapshots is called **committing** your changes
+
+## The Git approach
+2. Keep changes from one snapshot to the next **simple** and **documented**
+
+Corollary: commit **often**
+
+<!-- ## The Git approach -->
+<!-- 3. Adopt a branching workflow  -->
+
+<!-- There are several approaches for dealing with conflicts. Adopt one of them -->
+
+<!-- [Check the git documentation](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) -->
+
+## The Git approach
+3. Prioritize things in **plain text**
+
+   That is: 
+
+   - Commit changes to code, LaTeX, Markdown... (generators, light)
+   - Do not track PDF, PNG, CSV, etc... (derivatives, heavier)
+
+## The Git approach
+
+### Example
+I'll show you how Git implements these principles, and why they make sense
 
 
-## The basic philosophy
-2. Changes are incremental.
-
-   * The evolution of a project over time will be the sum of extensively
-     documented minor changes. 
-   * The history of the project should be readily
-     accessible, and previous versions immediately recoverable. 
-     
-     
-## The basic philosophy
-3. The bulk of "version controlled" files should be *plain text*
-
-   * If your text editor can't open a file, it will be impractical to track changes
-   * TODO: Include example of tracking changes to a file
-
-::: notes
-
-In practice what this is saying is that for version control purposes, storing
-the relevant files in some type of plain text format is preferred to storing it 
-
-::: 
