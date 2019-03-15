@@ -124,8 +124,10 @@ Corollary: commit **often**
 
    That is: 
 
-   - Commit changes to code, LaTeX, Markdown... (generators, light)
-   - Do not track PDF, PNG, CSV, etc... (derivatives, heavier)
+   - Commit changes to code, LaTeX, Markdown... 
+       + *Light*, *generator*, *diff-able* files
+   - Do not track PDF, PNG, CSV, etc... 
+       + *Heavy*, *derivative*, non diff-able
    
 ::: notes
 The rule I use is: 
