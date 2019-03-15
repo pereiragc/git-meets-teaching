@@ -144,4 +144,21 @@ The rule I use is:
 ### Example
 I'll show you how Git implements these principles, and why they make sense
 
+* This presentation repo
+* Show committing process
+    - Stage
+    - Commit
+* Show pushing process
+    - Set remote
+    - Push
 
+::: notes
+1. Show github
+    - list of commits
+    - each commit changes few things
+2. Make a change to the presentation
+    - Change content of two slides
+    - Partially stage changes & commit separately
+    
+      "A logical sequence of commits"
+:::
