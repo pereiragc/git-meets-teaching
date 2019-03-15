@@ -126,6 +126,15 @@ Corollary: commit **often**
 
    - Commit changes to code, LaTeX, Markdown... (generators, light)
    - Do not track PDF, PNG, CSV, etc... (derivatives, heavier)
+   
+::: notes
+The rule I use is: 
+
+- If somehting is an *input*, keep track even if it's a binary/csv/etc
+    * That is, sometimes you need these files for the code to run
+    * In that case, you must keep track of them 
+- If something is an output, keep track only if it's absolutely essential
+:::
 
 ## The Git approach
 
