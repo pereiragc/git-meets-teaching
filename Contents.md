@@ -56,7 +56,7 @@ to achieve with this talk is to
 :::
 
 ## How an economist does version control
-![Don't try this at home, kids](./fig/badproject.png)
+![Don't try this at home, kids](https://github.com/pereiragc/ltf-columbia-gitintro/raw/master/fig/badproject.png)
 
 ::: notes
 * You will see that there are many "MainCode.ipynb" files with different
@@ -97,7 +97,7 @@ So even if you're a smart-ass, here's a typical case.
 
 
 # The Git approach
-![Source: xkcd](./fig/git_xkcd.png)
+![Source: xkcd](https://github.com/pereiragc/ltf-columbia-gitintro/raw/master/fig/git_xkcd.png)
 
 ## The Git approach
 1. Keep track of project "snapshots"
