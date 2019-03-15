@@ -2,7 +2,7 @@
 
 # Builds the presentation on Contents.md
 pandoc -t revealjs -s -o Contents.html Contents.md \
-       -V revealjs-url=/home/gustavo/.local/reveal.js \
+       -V revealjs-url=http://lab.hakim.se/reveal-js\
        -V theme=solarized\
        -V transition=none\
        -V 'center:false'\
