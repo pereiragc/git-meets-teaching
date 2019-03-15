@@ -189,3 +189,6 @@ I'll show you how Git implements these principles, and why they make sense
 * Main concepts: **branching** and **merging**
 * Example: collaborators branch & pull request 
 * Git has some suggested [workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#ch05-distributed-git)
+
+# The end
+* Thank you! 
