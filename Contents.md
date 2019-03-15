@@ -162,3 +162,29 @@ I'll show you how Git implements these principles, and why they make sense
     
       "A logical sequence of commits"
 :::
+
+# Collaborating and teaching
+
+* As you see, as a side effect you have a web hosted repository
+    - Collaborators/students/users can 'pull' it. Initially
+    
+      ```{shell}
+      git clone https://github.com/pereiragc/ltf-columbia-gitintro
+      ```
+      
+      Then for updates: 
+      ```{shell}
+      git pull
+      ```
+      
+## Collaborating and teaching
+### Teachers
+* A convenient way of hosting your course
+* Gives you ownership: *adiós* Courseworks
+* Especially useful if you're class involves coding
+* Not a coincidence: [GitHub has its own suggested workflow for classes](https://classroom.github.com)
+
+## Collaborating and teaching
+### Collaborating
+* Main concepts: **branching** and **merging**
+* Example: clone, branch & pull request (centralized workflow)
